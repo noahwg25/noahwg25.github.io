@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Portfolio Site</title>
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+        <link rel="shortcut icon" type="img/png" href="Favicon.png">
+        <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+        <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+    </head>
+
+    <body class="Background">
+        
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        
+        <br>
+        <br>
+
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="VideoCoding.mp4" type="video/mp4">
+                <!--Display message if video fails to run-->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        
+        <div class="Video_Text">
+            <h1 class="white-text">Noah's Portfolio Site</h1>
+            <strong>
+                <p class="center">
+                    <strong>This is my portfolio site dedicated to my skills in creating programs and web pages.
+                     </strong>
+                </p>
+            </strong>
+        </div>
+
+      
+        <div class="Row" id="About">
+            <div class="Column_2">
+                <img src="Coding.jpg" alt="Custom Image">
+            </div>
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    I am a young student with a passion for computers and a drive to create!
+                    <br>
+                    <br>I am a student of <a href="https://www.academyoflearning.com/" target="_blank">The Academy of Learning</a>’s Software and Web Development program. 
+                    <br>My program covers an array of essential skills in the field of computer science, and teaches the complexities of languages such as HTML, CSS, Javascript, C#.
+                    <br>
+                    <br>I have learned a lot already, but am eager to continue my studies.
+                </p>
+            </div>
+        </div>
+
+        <div class="Row" id="GitHub">
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>
+                    Below is a link to my Github page containing my school projects:
+                    <br>
+                    <p class="center"><a href="https://github.com/noahwg25" target="_blank">My Github</a></p>
+                </p>
+            </div>
+            <div class="Column_2">
+                <a href="https://github.com/noahwg25" target="_blank"><img src="GithubLogo.png" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+
+        <div class="Row" id="Contact">
+            <div class="Column_2 Column_tall">
+                <img src="Contact.jpg" alt="Contact_Image">
+            </div>
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <form action="" method="POST"> 
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="gallery">
+            <a href="images/plant1.png" data-lightbox="myGallery"><img src="images/plant1-small.png"></a>
+            <a href="images/plant2.png" data-lightbox="myGallery"><img src="images/plant2-small.png"></a>
+            <a href="images/plant3.png" data-lightbox="myGallery"><img src="images/plant3-small.png"></a>
+            <a href="images/plant4.png" data-lightbox="myGallery"><img src="images/plant4-small.png"></a>
+        </div>
+    </body>
+</html>
